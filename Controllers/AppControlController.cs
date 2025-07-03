@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 namespace DadJoke_API.Controllers
 {
     [ApiController]
+    [ApiExplorerSettings(IgnoreApi = true)]
     [Route("[controller]")]
     public class AppControlController : ControllerBase
     {
