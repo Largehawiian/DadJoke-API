@@ -1,0 +1,40 @@
+@DadJoke_API_HostAddress = https://dnocc8522.ftidev.harris.com:7272
+
+### Weather Forecast
+GET {{DadJoke_API_HostAddress}}/weatherforecast/
+Accept: application/json
+X-API-KEY: your-api-key-here
+###
+
+### Get Dad Joke (icanhazdadjoke)
+GET {{DadJoke_API_HostAddress}}/Test/Jokes/icanhazdadjoke
+Accept: text/plain
+X-API-KEY: your-api-key-here
+
+###
+
+### Get Dad Joke (jokeapi-v2)
+GET {{DadJoke_API_HostAddress}}/Test/Jokes/jokeapi-v2
+Accept: text/plain
+X-API-KEY: your-api-key-here
+
+###
+
+### Get Text
+GET {{DadJoke_API_HostAddress}}/api/text
+Accept: text/plain
+X-API-KEY: your-api-key-here
+
+###
+
+### Shutdown Application
+POST {{DadJoke_API_HostAddress}}/AppControl/shutdown
+X-API-KEY: your-api-key-here
+
+###
+
+### Ping Pong
+GET {{DadJoke_API_HostAddress}}/AppControl/ping
+X-API-KEY: your-api-key-here
+
+###
